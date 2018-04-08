@@ -21,6 +21,17 @@ def home(request):
 
 	return render(request, 'jdsolutions/home.html', context)
 
+def done_jobs(request):
+	return render(request, 'jdsolutions/done_jobs.html')
+
+
+def web_dev(request):
+	return render(request, 'jdsolutions/web_dev.html')
+
+
+def blog_dev(request):
+	return render(request, 'jdsolutions/blog_dev.html')
+
 
 
 

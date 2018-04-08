@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6ku=)6j-!&ey)hp5oco)t5$$7qq*)w%$z4a*=n))3og9uk8wi='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['jdsolutions.ee', 'www.jdsolutions.ee']
+TEMPLATE_DEBUG = False
+
+ALLOWED_HOSTS = ['127.0.0.1', 'jdsolutions.ee', 'www.jdsolutions.ee']
 
 
 # Application definition
@@ -118,5 +120,31 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = '/Static/'
+
+# FOR PRODUCTION
+if not DEBUG:
+	MEDIA_URL = '/media/'
+	MEDIA_ROOT = os.path.join(BASE_DIR, 'media_served')
+
+	STATIC_URL = '/static/'
+	STATIC_ROOT = os.path.join(BASE_DIR, 'static_served')
+
+	STATICFILES_DIRS = (
+			os.path.join(BASE_DIR,'jdsolutions/static/'),
+		)
+
+
+	# TEMPLATE LOCATION
+	TEMPLATE_DIRS = (
+			os.path.join(BASE_DIR,'jdsolutions/templates/'),	
+		)
+
+
+
+# STATIC_ROOT = os.path.join[BASE_DIR, '/static_served/']
+
+# # for MEDIA files
+
+# STATIC_URL = '/media/'
+
+# STATIC_ROOT = os.path.join[BASE_DIR, '/media_served/']
