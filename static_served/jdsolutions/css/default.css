@@ -1,0 +1,324 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding:0;
+    font-family: 'Fauna One', serif;
+    /*#f5f5dc*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+header{
+	
+}
+.navbar{
+	height:52px;
+	overflow: hidden;
+
+}
+#nav-edit{
+	margin-bottom: 5px;
+	/*border-bottom: 1px solid gold;*/
+
+}
+#nav-edit:hover{
+	/*opacity: 0.9;*/
+}
+.nav_contact{
+	margin-left: 200px;
+	color:#999d9d;
+}
+
+/*NAVBAR LINKS MODIFICATION*/
+
+
+/*INTRO SECTION*/
+/*#intro{
+	padding-top: 50px;
+	text-align: center;
+	background-color: gray;
+	margin-top: 50px;
+	border-top:1px solid gold;
+	margin-bottom: 2px;
+	border-bottom:1px solid gold;
+	min-height: 600px;
+	opacity: 0.9;
+}
+#intro:hover{
+	opacity: 0.9;
+}*/
+
+
+/*ABOUT SECTION*/
+#about{
+	padding-top: 50px;
+	text-align: center;
+	height: 500px;
+}
+.abt_well{
+	height: 100%;
+	border-bottom: 1px solid #404040;
+}
+#about:hover{
+	opacity: 0.9;
+}
+.about_pad{
+	padding-top:50px;
+}
+
+
+.table_insert{
+	border:1px solid red;
+}
+
+
+/*OUR SERVICES SECTION*/
+#services{
+	margin-top: 2px;
+	text-align: center;
+	min-height: 680px;
+	/*background-color: #6dbdd6;*/
+	/*border-top:1px solid gold;*/
+	/*border-bottom:1px solid gold;*/
+
+}
+
+#services:hover{
+	/*opacity: 0.9;*/
+}
+#services_table{
+	width:100%;
+	height: 580px;
+	/*border:1px solid red;*/
+}
+.ser_tbl_td{
+	height: 50%;
+	/*border:1px solid gold;*/
+	width: 33.33%;
+	margin:5px;
+}
+.ser_tbl_th1{
+
+}
+.ser_tbl_th2{
+	margin-top: 5px;
+	/*border:1px solid green;*/
+}
+
+.ser_img{
+	width:100px;
+	height:100px;
+}
+.pfl_img{
+	width:200px;
+	height:150px;
+}
+
+
+
+
+
+/*PORTFOLIO SECTION*/
+#portfolio{
+	text-align: center;
+	height: 600px;
+	/*border-bottom:1px solid gold;*/
+}
+#portfolio:hover{
+	opacity: 0.9;
+}
+#portfolio_table{
+	width:100%;
+	height:535px;
+}
+
+.pt_tbl_row{
+	width:100%;
+}
+.pt_tble_1{
+	border:1px solid green;
+	/*width:300px;*/
+	/*padding:5px 5px 5px 5px;*/
+}
+
+/*CONTACT SECTION*/
+#contact{
+	padding-top: 20px;
+	text-align: center;
+	height: 500px;
+	/*background-color: #FAEBD7;*/
+	/*border-bottom:1px solid gold;*/
+}
+#contact:hover{
+	/*opacity: 0.9;*/
+}
+
+
+/*FOOTER SECTION*/
+#footer{
+	/*color:black;*/
+	height:150px;
+	text-align: center;
+	/*border:1px solid red;*/
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background-color: black;
+	/*background-color: #FAEBD7;*/
+	
+	/*opacity: 0.8;*/
+}
+#footwell{
+	height: 100%;
+	/*border:1px solid green;*/
+	display: block;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	/*background-color: black;*/
+	/*opacity: 0.7;*/
+	
+}
+#footwell-table{
+	/*border:1px solid purple; */
+	width: 100%;
+	/*background-color: #e1b933;*/
+	/*opacity: 0.9;*/
+}
+#footwell-table:hover{
+	/*opacity: 1;*/
+	/*font-weight: bold;*/
+}
+#footer{
+	/*color:white;*/
+}
+#footer td:hover{
+	color:white;
+}
+
+.foot-row1{
+	/*border:1px solid gold;*/
+	width: 33.33%;
+
+}
+
+/*IMG*/
+.footer_img{
+	width:20px;
+	height: 20px;
+}
+
+
+
+/*SEARCH FORM*/
+#search{
+	/*margin-left:100px; */
+}
+#home{
+	height:100px;
+	background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+/*STYLING LINKS*/
+a:link {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e1b933;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+	color:#e1b933;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    display: block;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    display: block;
+}
+
+li:hover {
+    /*text-decoration: underline;*/
+    /*text-decoration-color: black;*/
+    display: block;
+}
+
+
+/*
+for starters i want to try #	 color
+header and footer #FAEBD7*/
+
+/*Make border of NAV almost transparent(white)*/
+
+
+
+/*There is no point playing "guard". Everyone needs that person who can truly break their hearts. */
+/*everyone needs love, pain and hurt.*/
+
+
+/*ADD TRANSITION TO SECTIONS*/
+
+/*HEADER FONTS*/
+
+h1{
+	font-family: 'Fauna One', serif;
+	font-size: 30px;
+}
+h4{
+	font-family: 'Fauna One', serif;
+}
+
+
+
+
+
+
+/*FORM*/
+.form_table{
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+.form_table tr td{
+	padding:5px;
+}
+.form_flt_right{
+	align:right;
+}
+
+/*TD-HOVER*/
+td{
+
+}
+
+td:hover{
+
+}
+
+
+/*BORDER BOTTOM WELL*/
+.bdr_well{
+	border-bottom: 1px solid #404040;
+}
